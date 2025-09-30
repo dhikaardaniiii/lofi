@@ -1,0 +1,103 @@
+/* RESET SEDERHANA */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4; /* Latar belakang abu-abu muda */
+    color: #333;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border: 3px solid black; /* Garis tebal sebagai batas utama Lofi */
+}
+
+h1, h2 {
+    color: #222;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 5px;
+}
+
+/* BLOK INFORMASI */
+.box {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid gray; /* Garis tipis untuk batas modul */
+}
+
+/* FORM STYLING */
+.form-group {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"], input[type="number"], select {
+    width: calc(100% - 12px);
+    padding: 6px;
+    margin-bottom: 8px;
+    border: 1px solid #666; /* Garis fokus pada input */
+    box-sizing: border-box;
+}
+
+/* RESEP LIST STYLING (Dinamic Block) */
+.resep-item {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
+    padding: 8px;
+    border: 1px dashed #aaa; /* Garis putus-putus untuk setiap baris resep */
+    align-items: center;
+}
+
+.resep-item select, 
+.resep-item input {
+    width: 25%;
+    flex-grow: 1; /* Biarkan elemen tumbuh */
+}
+
+.satuan {
+    font-size: 0.8em;
+    color: #777;
+    white-space: nowrap;
+}
+
+/* TOMBOL */
+button {
+    cursor: pointer;
+    padding: 8px 15px;
+    border: 1px solid;
+}
+
+.action-btn-primary {
+    background-color: #eee;
+    border-color: green;
+    font-weight: bold;
+}
+
+.action-btn-secondary {
+    background-color: white;
+    border-color: blue;
+}
+
+.action-btn-cancel {
+    background-color: white;
+    border-color: red;
+}
+
+.remove-btn {
+    border-color: red;
+    background-color: #ffeeee;
+}
+
+.action-bar {
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+}
